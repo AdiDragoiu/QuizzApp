@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiectfinal.firstFrameController">
+   <left>
+      <AnchorPane prefHeight="407.0" prefWidth="228.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="228.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Poze%20proiect/doii.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="46.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Poze%20proiect/welcome.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="loginButton" layoutX="94.0" layoutY="126.0" mnemonicParsing="false" onAction="#onLoginButton" prefHeight="53.0" prefWidth="142.0" style="-fx-background-color: #1700FF;" text="Login" textFill="WHITE" />
+            <Button fx:id="registerButton" layoutX="94.0" layoutY="214.0" mnemonicParsing="false" onAction="#onRegisterButton" prefHeight="53.0" prefWidth="141.0" style="-fx-background-color: #1700FF;" text="Register" textFill="WHITE" />
+            <Button fx:id="exitButton" layoutX="94.0" layoutY="301.0" mnemonicParsing="false" onAction="#onExitButtonClick" prefHeight="53.0" prefWidth="142.0" style="-fx-background-color: #1700FF;" text="Exit" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
